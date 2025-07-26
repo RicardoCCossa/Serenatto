@@ -72,3 +72,14 @@ input[type="range"]:hover::-webkit-slider-thumb {
   background: var(--marrom-escuro); 
 }
 
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion-item, .accordion-button:not(.collapsed), .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-accordion-color: white;
+    --bs-accordion-active-color: white;
+    --bs-btn-color: white;
+  }
+}
